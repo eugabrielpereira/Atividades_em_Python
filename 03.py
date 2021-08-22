@@ -1,0 +1,5 @@
+a=input("Digite o seu salário:")
+b=input("Qual o seu nome?")
+print("Nome do funcionário: {}".format(b))
+print("O salário é de: R${}".format(a))
+print("O funcionário {} tem o salário de R${}".format(b,a))

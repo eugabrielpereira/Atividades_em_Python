@@ -1,0 +1,6 @@
+print("Iremos calcular o custo do seu aluguel automativo")
+print("Considerando R$90,00 por dia e R$0,20 KM rodado")
+a=float(input("Quantos dias o carro foi alugado?"))
+b=float(input("Quantos km foram rodado?"))
+total=(b*0.20)+(a*90)
+print("O seu custo será de R${:.2f}".format(total))
